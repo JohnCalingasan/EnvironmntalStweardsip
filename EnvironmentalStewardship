@@ -1,0 +1,95 @@
+public class EnvironmentalStewardship {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Welcome to the Environmental Stewardship Program!");
+        System.out.println("This program will teach you about ways to reduce the impact of computers and related technologies on the environment and human health.");
+        System.out.println("Let's get started!");
+
+        // Section 1: Reduce, reuse, and recycle
+        System.out.println("\nSection 1: Reduce, reuse, and recycle");
+        System.out.println("One way to reduce the impact of computers and related technologies on the environment is to reduce, reuse, and recycle.");
+        System.out.println("This means reducing the amount of electronics we use, reusing electronics when possible, and recycling electronics when they are no longer usable.");
+        System.out.println("What are some ways you can reduce the impact of computers and related technologies on the environment?");
+        System.out.println("1. Reduce the amount of electronics you use");
+        System.out.println("2. Reuse electronics when possible");
+        System.out.println("3. Recycle electronics when they are no longer usable");
+        System.out.print("Enter your answer (1-3): ");
+        int section1Answer1 = scanner.nextInt();
+
+        System.out.println("\nWhat is one way you can reuse electronics?");
+        System.out.println("1. Use them for as long as possible");
+        System.out.println("2. Donate them to a local charity");
+        System.out.println("3. Both of the above");
+        System.out.print("Enter your answer (1-3): ");
+        int section1Answer2 = scanner.nextInt();
+
+        System.out.println("\nWhat is one way you can recycle electronics?");
+        System.out.println("1. Donate them to a local charity");
+        System.out.println("2. Throw them in the trash");
+        System.out.println("3. Take them to a local electronics recycling center");
+        System.out.print("Enter your answer (1-3): ");
+        int section1Answer3 = scanner.nextInt();
+
+        // Section 2: Turning off computers and monitors
+        System.out.println("\nSection 2: Turning off computers and monitors");
+        System.out.println("Another way to reduce the impact of computers and related technologies on the environment is to turn off computers and monitors at the end of the day.");
+        System.out.println("This can save energy and reduce greenhouse gas emissions.");
+        System.out.println("Should you turn off your computer and monitor at the end of the day?");
+        System.out.println("1. Yes");
+        System.out.println("2. No");
+        System.out.print("Enter your answer (1-2): ");
+        int section2Answer1 = scanner.nextInt();
+
+        System.out.println("\nWhat can turning off your computer and monitor at the end of the day help to reduce?");
+        System.out.println("1. Energy use");
+        System.out.println("2. Greenhouse gas emissions");
+        System.out.println("3. Both of the above");
+        System.out.print("Enter your answer (1-3): ");
+        int section2Answer2 = scanner.nextInt();
+
+        // Section 3: Printer cartridge recycling
+        System.out.println("\nSection 3: Printer cartridge recycling");
+        System.out.println("One type of technology that can have a significant impact on the environment is printers.");
+        System.out.println("One way to reduce this impact is to participate in printer cartridge recycling programs.");
+        System.out.println("What are some benefits of participating in printer cartridge recycling programs?");
+        System.out.println("1. It reduces the amount of waste sent to landfills");
+        System.out.println("2. It reduces the amount of plastic and other materials that end up in landfills");
+        System.out.println("3. It can save money");
+        System.out.print("Enter your answer (1-3): ");
+        int section3Answer1 = scanner.nextInt();
+
+        System.out.println("\nWhat can you do with your used printer cartridges?");
+        System.out.println("1. Throw them in the trash");
+        System.out.println("2. Recycle them");
+        System.out.println("3. Donate them to a local charity");
+        System.out.print("Enter your answer (1-3): ");
+        int section3Answer2 = scanner.nextInt();
+
+        // Section 4: Governmental and community initiatives
+        System.out.println("\nSection 4: Governmental and community initiatives");
+        System.out.println("There are many governmental and community initiatives that encourage environmental stewardship and promote programs and practices that support sustainability.");
+        System.out.println("What are some examples of these initiatives?");
+        System.out.println("1. Local community recycling centers");
+        System.out.println("2. Private companies that refurbish computers");
+        System.out.println("3. Printer cartridge recycling programs");
+        System.out.print("Enter your answer (1-3): ");
+        int section4Answer1 = scanner.nextInt();
+
+        System.out.println("\nWhat is one benefit of participating in these initiatives?");
+        System.out.println("1. It can save money");
+        System.out.println("2. It can help protect the environment");
+        System.out.println("3. It can improve human health");
+        System.out.print("Enter your answer (1-3): ");
+        int section4Answer2 = scanner.nextInt();
+
+        System.out.println("\nCongratulations! You have completed the Environmental Stewardship Program.");
+        System.out.println("Here is a summary of your answers:");
+        System.out.println("Section 1: " + section1Answer1 + ", " + section1Answer2 + ", " + section1Answer3);
+        System.out.println("Section 2: " + section2Answer1 + ", " + section2Answer2);
+        System.out.println("Section 3: " + section3Answer1 + ", " + section3Answer2);
+        System.out.println("Section 4: " + section4Answer1 + ", " + section4Answer2);
+        scanner.close();
+    }
+
+}
